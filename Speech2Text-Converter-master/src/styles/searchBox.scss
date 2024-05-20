@@ -1,0 +1,81 @@
+.allInOne {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    .line {
+        display: flex;
+        flex-direction: row;
+        width: 720px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        @media screen and (max-width:720px) {
+            width: 300px;
+            height: 40px;
+        }
+        .container {
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #EAECCC;
+            height: 100%;
+            border: 1px solid;
+            border-color: black;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            overflow: hidden;
+            justify-content: flex-start;
+            input {
+                padding: 5px;
+                box-sizing: border-box;
+                background-color: transparent;
+                font-size: large;
+                height: 100%;
+                width: 100%;
+                border: none;
+                outline: none;
+                border-color: transparent;
+                @media screen and (max-width:720px) {
+                    font-size: medium;
+                }
+            }
+            .inside {
+                border: 0px solid;
+                margin-right: 15px;
+                background-color: transparent;
+                img {
+                    margin: 0px;
+                    height: 35px;
+                    width: 35px;
+                    cursor: pointer;
+                    @media screen and (max-width:720px) {
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+            }
+        }
+        .outside {
+            height: 100%;
+            border: 0px solid;
+            background-color: transparent;
+            img {
+                height: 30px;
+                width: 30px;
+                margin-left: 5px;
+                cursor: pointer;
+                @media screen and (max-width:720px) {
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

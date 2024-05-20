@@ -1,0 +1,87 @@
+.dropdown {
+  box-sizing: border-box;
+  height: auto;
+  width: 100px;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+}
+@media screen and (max-width: 720px) {
+  .dropdown {
+    width: 50px;
+  }
+}
+.dropdown .hoverButton {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 720px) {
+  .dropdown .hoverButton {
+    height: 40px;
+  }
+}
+.dropdown .hoverButton img {
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+  width: 40px;
+}
+@media screen and (max-width: 720px) {
+  .dropdown .hoverButton img {
+    height: 30px;
+    width: 30px;
+  }
+}
+.dropdown .contentBox {
+  height: 110px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  z-index: 1;
+  position: absolute;
+  box-sizing: border-box;
+  scroll-behavior: auto;
+  overflow: scroll;
+  background-color: #C6CF9B;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown .contentBox .language {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6ECA9;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 50px;
+  font-size: medium;
+  font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+  .dropdown .contentBox .language {
+    font-size: smaller;
+    font-weight: 500;
+  }
+}
+.dropdown .contentBox :active {
+  background-color: #f4d407;
+}
+.dropdown .contentBox :hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown ::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=hoverButton.css.map */

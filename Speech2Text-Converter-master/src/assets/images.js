@@ -1,0 +1,12 @@
+export const recBtn = require('./rec.gif');
+export const microphoneBtn = require('./microphone.gif');
+export const sendBtn = require('./send.gif');
+export const sentBtn = require('./send.png');
+export const scanBtn = require('./scan.gif');
+export const language = require('./language.png');
+export const cancelGif = require('./cancel.gif');
+export const cancelPng = require('./cancel.png');
+export const uploadButton = require('./upload.png');
+export const successPng = require('./success.png');
+export const cameraPng = require('./camera.png');
+export const swapPng = require('./swap.png');
